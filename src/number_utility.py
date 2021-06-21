@@ -109,3 +109,16 @@ def factorial(num):
     for i in range(1, num+1):
         fact *= i
     return fact
+
+def fibonacci(n):
+    """Returns an integer
+
+    Nth fibonacci number
+    """
+    a = 0
+    b = 1
+    for i in range(n-2):
+        c = a + b
+        a = b
+        b = c
+    return c 

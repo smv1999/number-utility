@@ -31,3 +31,6 @@ def test_number_utility_get_factors():
 
 def test_number_utility_factorial():
     assert factorial(6) == 720
+
+def test_number_utility_fibonacci():
+    assert fibonacci(6) == 5

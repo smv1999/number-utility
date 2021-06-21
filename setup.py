@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='number_utility',
-    version='0.0.1',
+    version='0.0.2',
     description='The number-utility module makes it simple for you to do number manipulation and perform various operations on numbers.',
     py_modules=["number_utility"],
     package_dir={'': 'src'},

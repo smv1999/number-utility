@@ -12,7 +12,8 @@ setup(
     extras_require = {
         "dev":[
             "pytest >= 3.7",
-            "check-manifest"
+            "check-manifest",
+            "twine"
         ]
     },
     classifiers=[
@@ -24,5 +25,6 @@ setup(
     long_description = long_description,
     long_description_content_type = "text/markdown",
     author = "Vaidhyanathan S M",
-    author_email = "vaidhyanathan.sm@gmail.com"
+    author_email = "vaidhyanathan.sm@gmail.com",
+    url = "https://github.com/smv1999/number"
 )

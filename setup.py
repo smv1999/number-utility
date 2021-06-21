@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name = 'number',
+    name = 'number_utility',
     version = '0.0.1',
     description = 'This is python package that contains all functions for number manipulation.',
-    py_modules = ["number"],
+    py_modules = ["number_utility"],
     package_dir = {'':'src'},
     extras_require = {
         "dev":[
@@ -26,5 +26,5 @@ setup(
     long_description_content_type = "text/markdown",
     author = "Vaidhyanathan S M",
     author_email = "vaidhyanathan.sm@gmail.com",
-    url = "https://github.com/smv1999/number"
+    url = "https://github.com/smv1999/number_utility"
 )

@@ -14,7 +14,8 @@ def test_number_utility_is_prime():
 
 
 def test_number_utility_generate_primes():
-    assert generate_primes(2, 10) == [2, 3, 5, 7]
+    assert generate_primes(5, 50) == [
+        5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]
 
 
 def test_number_utility_gcd():
@@ -32,5 +33,13 @@ def test_number_utility_get_factors():
 def test_number_utility_factorial():
     assert factorial(6) == 720
 
+
 def test_number_utility_fibonacci():
     assert fibonacci(6) == 5
+
+def test_number_utility_number_of_digits():
+    assert number_of_digits(153) == 3
+
+def test_number_utility_is_armstrong():
+    assert is_armstrong(1634) == True
+    

@@ -47,12 +47,12 @@ def generate_primes(num1, num2):
             "num1 can't be greater than num2. Specify the correct range.")
     if num1 == 0 or num2 == 0:
         raise Exception("Specify the correct range.")
-    if num1 == 1:
-        num1 = 2
     primes_generated = []
     range_length = num2 - num1 + 1
     primes = [True for i in range(range_length)]
-    inc_value = num1
+    if num1 == 1:
+        primes[num1] = False
+    inc_value = 2
     while inc_value * inc_value <= num2:
         if primes[inc_value] == True:
             for i in range(inc_value * inc_value, range_length, inc_value):
@@ -110,6 +110,7 @@ def factorial(num):
         fact *= i
     return fact
 
+
 def fibonacci(n):
     """Returns an integer
 
@@ -121,4 +122,23 @@ def fibonacci(n):
         c = a + b
         a = b
         b = c
-    return c 
+    return c
+
+
+def number_of_digits(num):
+    count = 0
+    while num > 0:
+        count += 1
+        num //= 10
+    return count
+
+
+def is_armstrong(num):
+    orginal_num = num
+    formed_num = 0
+    nod = number_of_digits(num)
+    while num > 0:
+        dig = num % 10
+        formed_num += dig ** nod
+        num //= 10
+    return formed_num == orginal_num

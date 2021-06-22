@@ -4,6 +4,8 @@
 ![GitHub forks](https://img.shields.io/github/forks/smv1999/number-utility?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/smv1999/number-utility?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/smv1999/number-utility?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/smv1999/number-utility?color=blue&style=for-the-badge)
+![PyPI](https://img.shields.io/pypi/v/number-utility?color=blue&style=for-the-badge)
 
 ### Introduction 
 

@@ -4,7 +4,7 @@ Introduction
 The number-utility module makes it simple for you to do number manipulation and perform various operations on numbers.
 
 reverse_num(num)
----------------
+===============
 
 Returns an integer : Reverse of a number passed as argument
 
@@ -19,7 +19,7 @@ print(reverse_num(num))
   543
 
 sum_of_digits(num)
------------------
+=================
 
 Returns an integer : Sum of the digits of a number passed as argument
 
@@ -34,7 +34,7 @@ print(sum_of_digits(num))
   12
   
 is_prime(num)
--------------
+============
 
 Returns a boolean : Checks whether the number passed as input is prime or composite
 
